@@ -12,7 +12,7 @@ function convertion(val)
 
 btn.addEventListener('click', function()
 {
-    fetch('https://api.openweathermap.org/data/3.0/weather?q='+inputvalue.value+'&appid='+apik)
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputvalue.value+'&appid='+apik)
     .then(res => res.json())
 
     .then(data =>
