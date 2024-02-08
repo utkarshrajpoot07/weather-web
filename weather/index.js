@@ -4,7 +4,7 @@ var city = document.querySelector('#cityoutput')
 var descrip = document.querySelector('#description')
 var temp = document.querySelector('#temp')
 var wind = document.querySelector('#wind')
-apik ='a666e4cf5404fc3e11236c7207bee17f'
+apik ="a666e4cf5404fc3e11236c7207bee17f"
 function convertion(val)
 {
     return (val - 273).toFixed(3)
